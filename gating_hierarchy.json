@@ -1,0 +1,74 @@
+[
+    {
+        "name": "nonDebris",
+        "x_channel": "FSC-A",
+        "y_channel": "SSC-A",
+        "vertices": [[25000.0, 0], [25000.0, 300000.0], [300000.0, 300000.0], [300000.0, 0]],
+        "children": [
+            {
+                "name": "singlets",
+                "x_channel": "FSC-A",
+                "y_channel": "FSC-H",
+                "vertices": [[25000, 12000], [25000, 27000], [260000, 230000], [260000, 175000]],
+                "children": [
+                    {
+                        "name": "viability",
+                        "x_channel": "APC-Cy7-A",
+                        "y_channel": "FSC-A",
+                        "vertices": [[-0.25, 0], [-0.25, 350000.0], [3.0, 350000.0], [3.0, 0]],
+                        "children": [
+                            {
+                                "name": "lineage",
+                                "x_channel": "FSC-A",
+                                "y_channel": "FITC-A",
+                                "vertices": [[0, -0.25], [0, 2.5], [270000.0, 2.5], [270000.0, -0.25]],
+                                "children": [
+                                    {
+                                        "name": "34P_38N",
+                                        "x_channel": "BV421-A",
+                                        "y_channel": "PE-Cy7-A",
+                                        "vertices": [[1.8, 0], [1.8, 1.54], [3.5, 1.54], [3.5, 0]],
+                                        "children": [
+                                            {
+                                                "name": "45P_90N",
+                                                "x_channel": "PE-A",
+                                                "y_channel": "Alexa 700-A",
+                                                "vertices": [[-0.25, 1.5], [-0.25, 3], [2.25, 3], [2.25, 1.5]]
+                                            },
+                                            {
+                                                "name": "45N_90N",
+                                                "x_channel": "PE-A",
+                                                "y_channel": "Alexa 700-A",
+                                                "vertices": [[-0.25, -0.25], [-0.25, 1.49], [2.25, 1.49], [2.25, -0.25]]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "34P_38P",
+                                        "x_channel": "BV421-A",
+                                        "y_channel": "PE-Cy7-A",
+                                        "vertices": [[1.7, 1.55], [1.7, 3.5], [3.5, 3.5], [3.5, 1.55]],
+                                        "children": [
+                                            {
+                                                "name": "45P_123P",
+                                                "x_channel": "BV605-A",
+                                                "y_channel": "Alexa 700-A",
+                                                "vertices": [[1.9, 1.9], [1.9, 3], [4, 3], [4, 1.9]]
+                                            },
+                                            {
+                                                "name": "45N_123P",
+                                                "x_channel": "BV605-A",
+                                                "y_channel": "Alexa 700-A",
+                                                "vertices": [[2.0, 0], [2.0, 1.89], [4, 1.89], [4, 0]]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
