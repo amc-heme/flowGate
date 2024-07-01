@@ -1,7 +1,7 @@
 # Flow Cytometry Gating Tool
 
 ## Overview
-The Flow Cytometry Gating Tool is a Python-based tool for applying hierarchical gating to flow cytometry data. It allows users to define gating hierarchies and polygon vertices for gating, and then applies these gates to the data. The tool also supports visualizing the gates with and without density contours.
+flowGate is a Python-based tool for applying hierarchical gating to flow cytometry data. It allows users to define gating hierarchies and polygon vertices for gating, and then applies these gates to the data. The tool also supports visualizing the gates with and without density contours.
 
 ## Features
 - Currently does not perform any relevant preprocessing or normalization.
