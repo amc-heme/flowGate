@@ -1,8 +1,7 @@
-idea
-venv
-.idea
-.venv
-idea/
-venv/
-.idea/
-.venv/
+/Users/devinburke/Documents/FlowPipeline/flowGate/idea
+/Users/devinburke/Documents/FlowPipeline/flowGate/.idea/
+/Users/devinburke/Documents/FlowPipeline/flowGate/.idea
+/Users/devinburke/Documents/FlowPipeline/flowGate/idea/
+
+
+
