@@ -30,3 +30,6 @@ pip install pandas numpy matplotlib seaborn fcsparser
     python FlowCytGating.py path_to_your_fcs_file.fcs gating_hierarchy.json annotated_cells.csv --plot --with_contours
      ``` 
  3. This process can be repeated to quickly change the vertices of each gate. 
+
+
+Todo: Package support
